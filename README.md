@@ -7,7 +7,7 @@ first go to mangahere bookmarks and save the html code by viewing source. save a
 
 open ```mangahere_title.py``` and edit the range for the number of html pages. Run.
 
-Now run ```mangahere.py```.
+now run ```mangahere.py```.
 
 The delay can be made shorter/longer if requests are going through/rejected.
 
