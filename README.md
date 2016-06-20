@@ -1,6 +1,6 @@
 # myanimelist-scripts
 
-some scripts for automated/mass adding to myanimelist
+some scripts for automated/mass adding to myanimelist.
 
 ## mangahere --> myanimelist
 first go to mangahere bookmarks and save the html code by viewing source. save as ```1.html```, ```2.html```, etc.
