@@ -17,3 +17,6 @@ If it can't find the manga, it'll open up the search of that manga in the browse
 wip
 
 adds anime to mal after watching an episode
+
+## open /r/anime
+check [myh1000/reddit-vlc](https://github.com/myh1000/reddit-vlc)
