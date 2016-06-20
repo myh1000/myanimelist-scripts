@@ -9,6 +9,11 @@ open ```mangahere_title.py``` and edit the range for the number of html pages. R
 
 now run ```mangahere.py```.
 
+Install any missing modules
+```
+pip install "module"
+```
+
 The delay can be made shorter/longer if requests are going through/rejected.
 
 If it can't find the manga, it'll open up the search of that manga in the browser.
