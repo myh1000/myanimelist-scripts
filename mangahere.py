@@ -10,6 +10,7 @@ with open('titles.txt', 'r') as file:
     # read a list of lines into data called titles
     titles = file.readlines()
 line = 0
+delay = 3.5
 auth=('username', 'password')
 
 def post(anime_id):
@@ -61,7 +62,7 @@ if (len(sys.argv) == 1):
     for title in titles:
         if (title.split(' ', 1)[0] != "Added:" and title.split(' ', 1)[0] != "Skip:"):
             add(title.strip())
-            time.sleep(3.5)
+            time.sleep(delay)
         line += 1
 else:
     post(get_id(sys.argv[1]))
