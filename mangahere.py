@@ -42,7 +42,7 @@ def get_id(name):
     try:
         return soup.id.contents[0]
     except Exception as error:
-        cmd = """osascript /Applications/VLC.app/Contents/MacOS/share/lua/extensions/chrome.applescript http://myanimelist.net/manga.php?q="""+urllib.quote(name)
+        cmd = """open http://myanimelist.net/manga.php?q="""+urllib.quote(name)
         os.system(cmd)
         sys.exit(name + '\n' + repr(error))
 
