@@ -22,7 +22,7 @@ Added: No Game No Life
 ```
 
 ## vlc --> myanimelist
-wip
+it should work but vlc is dumb and won't work with it for some reason.
 
 adds/updates anime mal that you've watched up to episode X
 
