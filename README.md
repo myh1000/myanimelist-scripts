@@ -26,5 +26,7 @@ it should work but vlc is dumb and won't work with it for some reason.
 
 adds/updates anime mal that you've watched up to episode X
 
+look at [MAL Updater OS X](https://github.com/myh1000/malupdaterosx-cocoa) instead, which has some other capabilities as well.
+
 ## open /r/anime
 check [myh1000/reddit-vlc](https://github.com/myh1000/reddit-vlc)
